@@ -188,5 +188,12 @@ function showNav(){
 //     }
 //   })
 // });
-
-
+const popup = document.querySelector('.popup1')
+myFunction();
+function myFunction(){
+  popup.addEventListener('click', showPopUp)
+}
+function showPopUp(){
+  const description = document.querySelector('iframe');
+  description.classList.toggle('show')
+}
