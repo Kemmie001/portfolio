@@ -18,6 +18,9 @@ canvas {
     height: 10rem;
     float: right;
    }
+   .size{
+       font-size: 1rem;
+   }
    .image-container2{
     width: 20rem;
     height: 10rem;
@@ -266,6 +269,9 @@ iframe{
   iframe{
       height: 50%;
   }
+  .size{
+    font-size: 0.5rem;
+  }
   }
 
   .container3-item{
@@ -275,9 +281,7 @@ iframe{
       /* width: 10rem; */
   }
   
-  .size{
-    font-size: 0.5rem;
-  }
+ 
  
   iframe{
     margin-top:3rem ;
