@@ -12,7 +12,7 @@ canvas {
   body{
     font-family: 'Lobster Two', cursive;
   }
-  @media screen and (min-width:769px){
+  @media screen and (min-width:760px){
    .image-container{
     width: 20rem;
     height: 10rem;
@@ -64,6 +64,10 @@ canvas {
    .image-item{
     width: 100%;
     height: auto;
+}
+iframe{
+    width: 70%;
+    height: 70%;
 }
 }
   .container1{
@@ -186,7 +190,7 @@ canvas {
       text-decoration-line: none;
       font-size: 1.2rem;
   }
-  @media screen and (max-width:768px){
+  @media screen and (max-width:760px){
       .icons{
           display: none;
       }
@@ -253,16 +257,19 @@ canvas {
   .container3{
      display: grid;
      margin-top: 4rem;
-     grid-template-columns: repeat(2, 10rem);
+     grid-template-columns: repeat(auto-fill, 10rem);
      justify-content: center;
   }
   .image-item{
       width: 100%;
   }
+  iframe{
+      height: 50%;
+  }
   }
 
   .container3-item{
-      padding: 0;
+      /* padding: 0; */
       margin-left: 1rem;
       margin-right: 1rem;
       /* width: 10rem; */
@@ -271,14 +278,30 @@ canvas {
   .size{
     font-size: 0.5rem;
   }
+ 
   iframe{
-      width: 0;
-      position: fixed;
-    
+    margin-top:3rem ;
+    /* height: 15rem; */
     border: none;
   }
-  .show{
-      margin-right:2rem;
-      width: 50%;
-    height: 50%;
-  }
+.container-frame, .second, .third, .fourth, .fifth, .sixth {
+    position: fixed;
+    overflow: hidden;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    text-align: center;
+    /* height: 100rem; */
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+}
+.container5{
+    margin-left:2rem ;
+    font-size: 1rem;
+}
+
+
+
+ 
