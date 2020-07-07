@@ -53,6 +53,7 @@ canvas {
     display: grid;
     grid-template-columns:repeat(3, minmax(10rem, 1fr));
     grid-gap: 1rem;
+    grid-row-gap: 2rem;
     grid-template-rows:12rem;
     justify-content: center;
     align-content: center;
@@ -129,6 +130,7 @@ iframe{
   .container2{
       position: relative;
       color: white;
+      margin-top: 3rem;
   }
     .image{
         width: 100%;
