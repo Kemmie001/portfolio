@@ -5,20 +5,20 @@
   }
   body{
     font-family: 'PT Sans', sans-serif;
+    /* position: relative; */
   }
   #particles-js{
     background-color: black;
-    position: absolute;
+    position: fixed;
     content: "";
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: -99;
+    z-index: -1;
 }
   .head-container-item{
       margin-top: 4rem;
-      position: relative;
       padding: 1rem;
   }
 
@@ -50,6 +50,7 @@
     font-size: 1.2rem;
 }
   @media screen and (min-width:760px){
+    
     .head-item{
         margin: 3rem;
         background: transparent;
