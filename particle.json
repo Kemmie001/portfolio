@@ -1,0 +1,35 @@
+{
+    "particles":{
+        "number":{
+            "value":70
+        },
+        "opacity":{
+            "value":0.7
+    
+        },
+        "color":{
+            "value":"#87ceeb"
+        },
+        "size":{
+            "value":5,
+            "random":true
+        },
+        "shape":{
+           "type":"circle" 
+        }
+    },
+    "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "push"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          }
+        }
+    }
+   
+}
