@@ -50,7 +50,9 @@
     font-size: 1.2rem;
 }
   @media screen and (min-width:760px){
-    
+    .head-container-item{
+        margin-top: 2rem;
+    }
     .head-item{
         margin: 3rem;
         background: transparent;
@@ -165,7 +167,7 @@ iframe{
   .container2{
       position: relative;
       color: white;
-      margin-top: 3rem;
+      /* margin-top: 3rem; */
   }
     .image{
         width: 100%;
@@ -305,6 +307,7 @@ iframe{
     margin-left:2rem ;
     font-size: 1.5rem;
 }
+
 footer{
     text-align: center;
     margin-bottom: 0rem;
