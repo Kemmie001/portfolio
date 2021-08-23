@@ -218,7 +218,7 @@ iframe{
           font-size: 3rem;
           font-stretch: extra-expanded;
           position: fixed;
-          z-index: 2;
+          z-index: 3;
           top:1%;
           left: 5%;
           color: skyblue;
