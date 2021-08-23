@@ -5,7 +5,7 @@
   }
   body{
     font-family: 'PT Sans', sans-serif;
-
+    word-spacing: 0.2rem;
   }
   #particles-js{
     background-color: black;
@@ -35,7 +35,7 @@
     width: 10rem;
     height: 3rem;
     border-radius: 0.2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 2rem;
     box-shadow: solid skyblue;
     border: solid rgba(126, 201, 231, 0.7) 0.1rem;
@@ -63,7 +63,7 @@
     float: right;
    }
    .contact-button{
-       margin-left: 4rem;
+       margin-left: 2rem;
    }
    .size{
        font-size: 1rem;
@@ -227,7 +227,7 @@ iframe{
         position: fixed;
         top: 0;
         right: 0;
-        height: 50%;
+        height: 100%;
         width: 0;
         overflow: hidden;
         transition: all 1s ease-in-out;
@@ -235,7 +235,7 @@ iframe{
         z-index: 3;
     }
     .nav-show{
-        width: 8rem;
+        width: 50%;
     }
     .show-icons{
         list-style-type: none;
